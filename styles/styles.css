@@ -1,0 +1,113 @@
+@import url('https://fonts.googleapis.com/css2?family=Oswald&display=swap');
+
+.aHeader {
+  color: white;
+  padding: 50px;
+  background-color: cornflowerblue;
+}
+
+.arealogo{
+  color: white;
+  float: left;
+}
+
+.areaMenu{
+  padding-left: 41%;
+}
+
+.areaCart{
+  color:white;
+  float: right;
+}
+
+#menu ul {
+  list-style: none;
+  margin: 0;
+  padding: 0;
+}
+
+#menu ul li {
+  float: left;
+}
+
+#menu a{
+  color:white;
+  text-decoration: none;
+  display: block;
+  padding-left: 20%;
+  padding-right: 20px;
+  padding-bottom: 20px;
+  font-family: "Oswald";
+  font-size: 1.8em;
+}
+
+#menu a:hover{
+  color: chocolate;
+}
+
+#menu a:active{
+  color: chocolate;
+}
+
+.bienvenida{
+  text-align: center;
+}
+
+.bienvenida img{
+  display: block;
+  margin-top: 2em;
+  margin-left: auto;
+  margin-right: auto;
+  border-radius:11%;
+  width: 50%;
+  border: 1em solid rgba(24, 52, 146, 0.1);
+}
+
+.bienvenida h1{
+  color:chocolate;
+  font-size: 4em;
+}
+
+.bienvenida p{
+  color:cornflowerblue;
+  font-family: cursive;
+  font-size: 1.5em;
+}
+
+.listadoProductos{
+  margin-top: 3em;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+table{
+  border-spacing: 50;
+  text-align: center;
+  margin: auto;
+  width: 40%;
+  font-family: "Oswald";
+  font-size: 1.8em;
+}
+
+tr{
+  margin-top: 30em;
+}
+
+#platocomida{
+  width:180px;
+}
+
+.simbolo{
+  color:cornflowerblue;
+}
+
+
+.btn {
+  height: 50px;
+  width: 50px;
+  border-radius: 50%;
+  margin:auto;
+  font-size: 1em;
+  color:cornflowerblue;
+  overflow:hidden;
+}
