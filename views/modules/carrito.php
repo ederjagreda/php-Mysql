@@ -38,8 +38,9 @@ if (isset($_SESSION['carrito'])){
             array_push($arreglo, $datosNuevos);
             $_SESSION['carrito']=$arreglo;
 
-        }
-}
+        }//else
+        header("Location: index.php?action=carrito");
+}//if
 
 }else{
     if(isset($_GET['id'])){
