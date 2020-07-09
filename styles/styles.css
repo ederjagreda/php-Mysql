@@ -16,7 +16,6 @@
 }
 
 .areaCart{
-  color:white;
   float: right;
 }
 
@@ -67,13 +66,33 @@
   color:chocolate;
   font-size: 4em;
 }
+.carritoIcono {
+  border-radius: 100%;
+  font-size: 1em;
+  background-color: lightgray;
+  width: 42px;
+  padding:10%;
+}
+
+.carritoIcono:hover {
+  border-radius: 100%;
+  font-size: 1em;
+  background-color: chocolate;
+  width: 42px;
+  padding:10%;
+}
 
 .bienvenida p{
   color:cornflowerblue;
   font-family: cursive;
   font-size: 1.5em;
 }
-
+.tablaElement{
+  margin-bottom: 100em;
+  padding-top: 5em;
+  padding-bottom: 10em;
+  height: 7em;
+}
 .listadoProductos{
   margin-top: 3em;
   margin-left: auto;
@@ -93,21 +112,83 @@ tr{
   margin-top: 30em;
 }
 
-#platocomida{
+
+.platocomida{
   width:180px;
+  height:120px;
 }
 
 .simbolo{
   color:cornflowerblue;
+  margin-left: 500%;
+  margin-right: 500%;
+  width: 20%;
+}
+
+.cantidad{
+  width: 5%;
 }
 
 
-.btn {
-  height: 50px;
-  width: 50px;
-  border-radius: 50%;
+.btnLink {
+  width: 200%;
+  height: 300%;
   margin:auto;
-  font-size: 1em;
+  font-size: 0.5em;
   color:cornflowerblue;
   overflow:hidden;
+}
+
+.btnLink:hover{
+  background-color:chocolate;
+  color: white;
+}
+
+.btn{
+  color:cornflowerblue;
+  background-color: white;
+  border-color: cornflowerblue;
+}
+
+.btn:hover {
+  background-color: chocolate;
+  border-color: cornflowerblue;
+  color: white;
+}
+
+.carroVacio{
+  height: 50%;
+  padding-top: 500;
+  color:chocolate;
+  font-size: 4em;
+}
+
+
+.imgCarrito{
+  width:80px;
+  height:50px;
+}
+
+.resultCarrito{
+  margin: auto;
+  margin-top: 5%;
+  border-spacing: 50;
+}
+
+.CarritoElement{
+  margin-bottom: 100em;
+  padding-top: 5em;
+  padding-bottom: 10em;
+  height: 4em;
+}
+
+.adder{
+  margin-top: 5em;
+  padding: 500px;
+  height: 10em;
+}
+
+.detalles{
+  margin-top: 5em;
+  margin-left: 0px;
 }

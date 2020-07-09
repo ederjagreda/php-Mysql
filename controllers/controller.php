@@ -22,7 +22,6 @@ class MvcController{
     }
 
     public function getPlatosController(){
-
         $tabla = "platos";
         $miClase = new EnlacesPaginas();
         $respuesta = $miClase->getFoodModel($tabla);
@@ -30,10 +29,18 @@ class MvcController{
     }
 
     public function getBebidasController(){
-
         $tabla = "bebidas";
         $miClase = new EnlacesPaginas();
         $respuesta = $miClase->getFoodModel($tabla);
+        return $respuesta;
+    }
+
+    public function getBPlatosbyIdController($tabla, $id){
+        if($tabla == 'bebida'){
+            $tabla = 'bebidas';
+        }
+        $miClase = new EnlacesPaginas();
+        $respuesta = $miClase->getFoodById($tabla, $id);
         return $respuesta;
     }
 

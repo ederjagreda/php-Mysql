@@ -26,14 +26,21 @@ $(document).ready(function(){
                         }
                     }
                     $(val).text(NewNumero);
+                
+                console.log($(val).html());
+                var obj = $(parent).find('.cantidad');
+                var submitter = $(parent).find('.sender');
+                var linkValue = submitter.attr('href')
+                console.log(linkValue);
+                var editedLink = linkValue.slice(0,48) + NewNumero;
+                console.log(editedLink);
+                $(submitter).attr('href', editedLink);
+
+
                 }; //if
             }); //each
         } //click/function
     });
 
-
-    $( window ).unload(function() {
-        alert("Bye now!");
-      });
 
 });

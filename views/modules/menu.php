@@ -13,7 +13,7 @@
             </nav>
         </div>
         <div class='areaCart'>
-            <a href="index.php?action=carrito"><img id="carrito" src="images/carritoCompras.png" alt="carrito" style="width:42px;height:42px;"></a>
+            <a href="index.php?action=carrito"><img class='carritoIcono' src="images/carritoCompras.png" alt="carrito"></a>
         </div>
     </div>
 </header>
