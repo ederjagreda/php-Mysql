@@ -31,7 +31,6 @@ $(document).ready(function(){
                 var obj = $(parent).find('.cantidad');
                 var submitter = $(parent).find('.sender');
                 var linkValue = submitter.attr('href')
-                console.log(linkValue);
                 var editedLink = linkValue.slice(0,48) + NewNumero;
                 console.log(editedLink);
                 $(submitter).attr('href', editedLink);
